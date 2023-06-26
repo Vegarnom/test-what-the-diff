@@ -23,7 +23,7 @@ export const checkAndRemoveSpaceInput = (input: string): boolean => {
 
  export const checkEmailAndRemoveSpace = (input: string): boolean => {
   input = input.trim();
-  if (input === '') {
+  if (input == '') {
     return false;
   }
   const regex = /^[a-zA-Z0-9]+@[a-zA-Z0-9]+\.[A-Za-z]+$/;
