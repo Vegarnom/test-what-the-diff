@@ -1,5 +1,3 @@
-import { checkEmailAndRemove } from './functions';
-import { checkAndRemoveSpaceInput } from 'src/common/helper/functions';
 export const checkAndRemoveSpaceInput = (input: string): boolean => {
   input = input.trim();
   if (input === '') {
@@ -34,4 +32,3 @@ export const checkAndRemoveSpaceInput = (input: string): boolean => {
   }
   return false;
  }
-
