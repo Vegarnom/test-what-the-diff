@@ -1,0 +1,317 @@
+10-03-2023 04:05:31 [BNB-IOT] info: AuthController {/auth}:
+10-03-2023 04:05:31 [BNB-IOT] info: Mapped {/auth/sign-up, POST} route
+10-03-2023 04:05:31 [BNB-IOT] info: Mapped {/auth/sign-in, POST} route
+10-03-2023 04:05:31 [BNB-IOT] info: Mapped {/auth/check-auth, GET} route
+10-03-2023 04:05:31 [BNB-IOT] info: SesameController {/sesame}:
+10-03-2023 04:05:31 [BNB-IOT] info: Mapped {/sesame/active, POST} route
+10-03-2023 04:05:31 [BNB-IOT] info: Mapped {/sesame/history/:id, GET} route
+10-03-2023 04:05:31 [BNB-IOT] info: Mapped {/sesame/status/:id, GET} route
+10-03-2023 04:05:31 [BNB-IOT] info: Mapped {/sesame/code, POST} route
+10-03-2023 04:05:31 [BNB-IOT] info: Mapped {/sesame/code, PUT} route
+10-03-2023 04:05:31 [BNB-IOT] info: Mapped {/sesame/code/:id, DELETE} route
+10-03-2023 04:05:31 [BNB-IOT] info: Mapped {/sesame/code, GET} route
+10-03-2023 04:05:31 [BNB-IOT] info: DevicesController {/devices}:
+10-03-2023 04:05:31 [BNB-IOT] info: Mapped {/devices, POST} route
+10-03-2023 04:05:31 [BNB-IOT] info: Mapped {/devices, PUT} route
+10-03-2023 04:05:31 [BNB-IOT] info: Mapped {/devices/user, GET} route
+10-03-2023 04:05:31 [BNB-IOT] info: Mapped {/devices/all, GET} route
+10-03-2023 04:05:31 [BNB-IOT] info: TokenProviderController {/token-provider}:
+10-03-2023 04:05:31 [BNB-IOT] info: Mapped {/token-provider/usage-plan, POST} route
+10-03-2023 04:05:31 [BNB-IOT] info: Mapped {/token-provider/usage-plan, GET} route
+10-03-2023 04:05:31 [BNB-IOT] info: Mapped {/token-provider/usage-plan, PUT} route
+10-03-2023 04:05:31 [BNB-IOT] info: Mapped {/token-provider/usage-plan, DELETE} route
+10-03-2023 04:05:31 [BNB-IOT] info: Mapped {/token-provider/token, POST} route
+10-03-2023 04:05:31 [BNB-IOT] info: Mapped {/token-provider/token, GET} route
+10-03-2023 04:05:31 [BNB-IOT] info: Mapped {/token-provider/token, PUT} route
+10-03-2023 04:05:31 [BNB-IOT] info: Mapped {/token-provider/token, DELETE} route
+10-03-2023 04:05:31 [BNB-IOT] info: Mapped {/token-provider/map-plan-token, POST} route
+10-03-2023 04:05:31 [BNB-IOT] info: TypeDeviceController {/type-device}:
+10-03-2023 04:05:31 [BNB-IOT] info: Mapped {/type-device, POST} route
+10-03-2023 04:05:31 [BNB-IOT] info: Mapped {/type-device, GET} route
+10-03-2023 04:05:31 [BNB-IOT] info: Mapped {/type-device/:id, GET} route
+10-03-2023 04:05:31 [BNB-IOT] info: Mapped {/type-device/:id, PUT} route
+10-03-2023 04:05:31 [BNB-IOT] info: Mapped {/type-device/:id, DELETE} route
+10-03-2023 04:05:31 [BNB-IOT] info: TypeBrandDeviceController {/type-brand-device}:
+10-03-2023 04:05:31 [BNB-IOT] info: Mapped {/type-brand-device, POST} route
+10-03-2023 04:05:31 [BNB-IOT] info: Mapped {/type-brand-device, GET} route
+10-03-2023 04:05:31 [BNB-IOT] info: Mapped {/type-brand-device/:id, GET} route
+10-03-2023 04:05:31 [BNB-IOT] info: Mapped {/type-brand-device/:id, PUT} route
+10-03-2023 04:05:31 [BNB-IOT] info: Mapped {/type-brand-device/:id, DELETE} route
+10-03-2023 04:05:31 [BNB-IOT] info: BrandDeviceController {/brand-device}:
+10-03-2023 04:05:31 [BNB-IOT] info: Mapped {/brand-device, POST} route
+10-03-2023 04:05:31 [BNB-IOT] info: Mapped {/brand-device, GET} route
+10-03-2023 04:05:31 [BNB-IOT] info: Mapped {/brand-device/:id, GET} route
+10-03-2023 04:05:31 [BNB-IOT] info: Mapped {/brand-device/:id, PUT} route
+10-03-2023 04:05:31 [BNB-IOT] info: Mapped {/brand-device/:id, DELETE} route
+10-03-2023 04:05:31 [BNB-IOT] info: MappingApiController {/mapping-api}:
+10-03-2023 04:05:31 [BNB-IOT] info: Mapped {/mapping-api, POST} route
+10-03-2023 04:05:31 [BNB-IOT] info: Mapped {/mapping-api/all, GET} route
+10-03-2023 04:05:31 [BNB-IOT] info: Mapped {/mapping-api, GET} route
+10-03-2023 04:05:31 [BNB-IOT] info: Mapped {/mapping-api/:id, GET} route
+10-03-2023 04:05:31 [BNB-IOT] info: Mapped {/mapping-api/:id, PUT} route
+10-03-2023 04:05:31 [BNB-IOT] info: Mapped {/mapping-api/:id, DELETE} route
+10-03-2023 04:05:31 [BNB-IOT] info: Mapped {/mapping-api/request/:key/:name, GET} route
+10-03-2023 04:05:31 [BNB-IOT] info: Mapped {/mapping-api/request/:key/:name, POST} route
+10-03-2023 04:05:31 [BNB-IOT] info: ThirdPartyApiController {/third-party-api}:
+10-03-2023 04:05:31 [BNB-IOT] info: Mapped {/third-party-api, POST} route
+10-03-2023 04:05:31 [BNB-IOT] info: Mapped {/third-party-api, GET} route
+10-03-2023 04:05:31 [BNB-IOT] info: Mapped {/third-party-api/:id, GET} route
+10-03-2023 04:05:31 [BNB-IOT] info: Mapped {/third-party-api/:id, PUT} route
+10-03-2023 04:05:31 [BNB-IOT] info: Mapped {/third-party-api/:id, DELETE} route
+10-03-2023 04:05:31 [BNB-IOT] info: ThirdPartyController {/third-party}:
+10-03-2023 04:05:31 [BNB-IOT] info: Mapped {/third-party, POST} route
+10-03-2023 04:05:31 [BNB-IOT] info: Mapped {/third-party, GET} route
+10-03-2023 04:05:31 [BNB-IOT] info: Mapped {/third-party/:id, GET} route
+10-03-2023 04:05:31 [BNB-IOT] info: Mapped {/third-party/:id, PUT} route
+10-03-2023 04:05:31 [BNB-IOT] info: Mapped {/third-party/:id, DELETE} route
+10-03-2023 04:05:31 [BNB-IOT] info: AuthorizationKioskController {/authorization-kiosk}:
+10-03-2023 04:05:31 [BNB-IOT] info: Mapped {/authorization-kiosk, GET} route
+10-03-2023 04:05:31 [BNB-IOT] info: Mapped {/authorization-kiosk/api-key/:apiKey, GET} route
+10-03-2023 04:05:31 [BNB-IOT] info: Mapped {/authorization-kiosk/pms/orgId, POST} route
+10-03-2023 04:05:31 [BNB-IOT] info: Mapped {/authorization-kiosk/pms, POST} route
+10-03-2023 04:05:31 [BNB-IOT] info: Mapped {/authorization-kiosk, POST} route
+10-03-2023 04:05:31 [BNB-IOT] info: Mapped {/authorization-kiosk/reset-token/:id, POST} route
+10-03-2023 04:05:31 [BNB-IOT] info: Mapped {/authorization-kiosk, PUT} route
+10-03-2023 04:05:31 [BNB-IOT] info: Mapped {/authorization-kiosk/:id, DELETE} route
+10-03-2023 04:05:31 [BNB-IOT] info: ResponseCodeController {/response-code}:
+10-03-2023 04:05:31 [BNB-IOT] info: Mapped {/response-code/:id, GET} route
+10-03-2023 04:05:31 [BNB-IOT] info: Mapped {/response-code/:id, PUT} route
+10-03-2023 04:05:31 [BNB-IOT] info: Nest application successfully started
+10-03-2023 04:12:57 [BNB-IOT] info: [create]: AuthKioskDto {"organizationId":1999,"username":"testkioskstg@genkisystem.com","password":"jQ9RnvAt","apiKey":"apiKey"}
+10-03-2023 04:12:57 [BNB-IOT] info: find by AuthorizationType
+10-03-2023 04:12:57 [BNB-IOT] info: third party not found
+10-03-2023 04:30:43 [BNB-IOT] info: AuthController {/auth}:
+10-03-2023 04:30:43 [BNB-IOT] info: Mapped {/auth/sign-up, POST} route
+10-03-2023 04:30:43 [BNB-IOT] info: Mapped {/auth/sign-in, POST} route
+10-03-2023 04:30:43 [BNB-IOT] info: Mapped {/auth/check-auth, GET} route
+10-03-2023 04:30:43 [BNB-IOT] info: SesameController {/sesame}:
+10-03-2023 04:30:43 [BNB-IOT] info: Mapped {/sesame/active, POST} route
+10-03-2023 04:30:43 [BNB-IOT] info: Mapped {/sesame/history/:id, GET} route
+10-03-2023 04:30:43 [BNB-IOT] info: Mapped {/sesame/status/:id, GET} route
+10-03-2023 04:30:43 [BNB-IOT] info: Mapped {/sesame/code, POST} route
+10-03-2023 04:30:43 [BNB-IOT] info: Mapped {/sesame/code, PUT} route
+10-03-2023 04:30:43 [BNB-IOT] info: Mapped {/sesame/code/:id, DELETE} route
+10-03-2023 04:30:43 [BNB-IOT] info: Mapped {/sesame/code, GET} route
+10-03-2023 04:30:43 [BNB-IOT] info: DevicesController {/devices}:
+10-03-2023 04:30:43 [BNB-IOT] info: Mapped {/devices, POST} route
+10-03-2023 04:30:43 [BNB-IOT] info: Mapped {/devices, PUT} route
+10-03-2023 04:30:43 [BNB-IOT] info: Mapped {/devices/user, GET} route
+10-03-2023 04:30:43 [BNB-IOT] info: Mapped {/devices/all, GET} route
+10-03-2023 04:30:43 [BNB-IOT] info: TokenProviderController {/token-provider}:
+10-03-2023 04:30:43 [BNB-IOT] info: Mapped {/token-provider/usage-plan, POST} route
+10-03-2023 04:30:43 [BNB-IOT] info: Mapped {/token-provider/usage-plan, GET} route
+10-03-2023 04:30:43 [BNB-IOT] info: Mapped {/token-provider/usage-plan, PUT} route
+10-03-2023 04:30:43 [BNB-IOT] info: Mapped {/token-provider/usage-plan, DELETE} route
+10-03-2023 04:30:43 [BNB-IOT] info: Mapped {/token-provider/token, POST} route
+10-03-2023 04:30:43 [BNB-IOT] info: Mapped {/token-provider/token, GET} route
+10-03-2023 04:30:43 [BNB-IOT] info: Mapped {/token-provider/token, PUT} route
+10-03-2023 04:30:43 [BNB-IOT] info: Mapped {/token-provider/token, DELETE} route
+10-03-2023 04:30:43 [BNB-IOT] info: Mapped {/token-provider/map-plan-token, POST} route
+10-03-2023 04:30:43 [BNB-IOT] info: TypeDeviceController {/type-device}:
+10-03-2023 04:30:43 [BNB-IOT] info: Mapped {/type-device, POST} route
+10-03-2023 04:30:43 [BNB-IOT] info: Mapped {/type-device, GET} route
+10-03-2023 04:30:43 [BNB-IOT] info: Mapped {/type-device/:id, GET} route
+10-03-2023 04:30:43 [BNB-IOT] info: Mapped {/type-device/:id, PUT} route
+10-03-2023 04:30:43 [BNB-IOT] info: Mapped {/type-device/:id, DELETE} route
+10-03-2023 04:30:43 [BNB-IOT] info: TypeBrandDeviceController {/type-brand-device}:
+10-03-2023 04:30:43 [BNB-IOT] info: Mapped {/type-brand-device, POST} route
+10-03-2023 04:30:43 [BNB-IOT] info: Mapped {/type-brand-device, GET} route
+10-03-2023 04:30:43 [BNB-IOT] info: Mapped {/type-brand-device/:id, GET} route
+10-03-2023 04:30:43 [BNB-IOT] info: Mapped {/type-brand-device/:id, PUT} route
+10-03-2023 04:30:43 [BNB-IOT] info: Mapped {/type-brand-device/:id, DELETE} route
+10-03-2023 04:30:43 [BNB-IOT] info: BrandDeviceController {/brand-device}:
+10-03-2023 04:30:43 [BNB-IOT] info: Mapped {/brand-device, POST} route
+10-03-2023 04:30:43 [BNB-IOT] info: Mapped {/brand-device, GET} route
+10-03-2023 04:30:43 [BNB-IOT] info: Mapped {/brand-device/:id, GET} route
+10-03-2023 04:30:43 [BNB-IOT] info: Mapped {/brand-device/:id, PUT} route
+10-03-2023 04:30:43 [BNB-IOT] info: Mapped {/brand-device/:id, DELETE} route
+10-03-2023 04:30:43 [BNB-IOT] info: MappingApiController {/mapping-api}:
+10-03-2023 04:30:43 [BNB-IOT] info: Mapped {/mapping-api, POST} route
+10-03-2023 04:30:43 [BNB-IOT] info: Mapped {/mapping-api/all, GET} route
+10-03-2023 04:30:43 [BNB-IOT] info: Mapped {/mapping-api, GET} route
+10-03-2023 04:30:43 [BNB-IOT] info: Mapped {/mapping-api/:id, GET} route
+10-03-2023 04:30:43 [BNB-IOT] info: Mapped {/mapping-api/:id, PUT} route
+10-03-2023 04:30:43 [BNB-IOT] info: Mapped {/mapping-api/:id, DELETE} route
+10-03-2023 04:30:43 [BNB-IOT] info: Mapped {/mapping-api/request/:key/:name, GET} route
+10-03-2023 04:30:43 [BNB-IOT] info: Mapped {/mapping-api/request/:key/:name, POST} route
+10-03-2023 04:30:43 [BNB-IOT] info: ThirdPartyApiController {/third-party-api}:
+10-03-2023 04:30:43 [BNB-IOT] info: Mapped {/third-party-api, POST} route
+10-03-2023 04:30:43 [BNB-IOT] info: Mapped {/third-party-api, GET} route
+10-03-2023 04:30:43 [BNB-IOT] info: Mapped {/third-party-api/:id, GET} route
+10-03-2023 04:30:43 [BNB-IOT] info: Mapped {/third-party-api/:id, PUT} route
+10-03-2023 04:30:43 [BNB-IOT] info: Mapped {/third-party-api/:id, DELETE} route
+10-03-2023 04:30:43 [BNB-IOT] info: ThirdPartyController {/third-party}:
+10-03-2023 04:30:43 [BNB-IOT] info: Mapped {/third-party, POST} route
+10-03-2023 04:30:43 [BNB-IOT] info: Mapped {/third-party, GET} route
+10-03-2023 04:30:43 [BNB-IOT] info: Mapped {/third-party/:id, GET} route
+10-03-2023 04:30:43 [BNB-IOT] info: Mapped {/third-party/:id, PUT} route
+10-03-2023 04:30:43 [BNB-IOT] info: Mapped {/third-party/:id, DELETE} route
+10-03-2023 04:30:43 [BNB-IOT] info: AuthorizationKioskController {/authorization-kiosk}:
+10-03-2023 04:30:43 [BNB-IOT] info: Mapped {/authorization-kiosk, GET} route
+10-03-2023 04:30:43 [BNB-IOT] info: Mapped {/authorization-kiosk/api-key/:apiKey, GET} route
+10-03-2023 04:30:43 [BNB-IOT] info: Mapped {/authorization-kiosk/pms/orgId, POST} route
+10-03-2023 04:30:43 [BNB-IOT] info: Mapped {/authorization-kiosk/pms, POST} route
+10-03-2023 04:30:43 [BNB-IOT] info: Mapped {/authorization-kiosk, POST} route
+10-03-2023 04:30:43 [BNB-IOT] info: Mapped {/authorization-kiosk/reset-token/:id, POST} route
+10-03-2023 04:30:43 [BNB-IOT] info: Mapped {/authorization-kiosk, PUT} route
+10-03-2023 04:30:43 [BNB-IOT] info: Mapped {/authorization-kiosk/:id, DELETE} route
+10-03-2023 04:30:43 [BNB-IOT] info: ResponseCodeController {/response-code}:
+10-03-2023 04:30:43 [BNB-IOT] info: Mapped {/response-code/:id, GET} route
+10-03-2023 04:30:43 [BNB-IOT] info: Mapped {/response-code/:id, PUT} route
+10-03-2023 04:30:43 [BNB-IOT] info: Nest application successfully started
+10-03-2023 04:30:49 [BNB-IOT] info: [create]: AuthKioskDto {"organizationId":1999,"username":"testkioskstg@genkisystem.com","password":"jQ9RnvAt","apiKey":"apiKey"}
+10-03-2023 04:30:49 [BNB-IOT] info: find by AuthorizationType
+10-03-2023 04:30:50 [BNB-IOT] info: find by authorizationType third party success
+10-03-2023 04:30:50 [BNB-IOT] info: [find all by third party id] third party id: 1
+10-03-2023 04:30:50 [BNB-IOT] info: [generateApiKeyAndMappingToUsagePlan] name token: 167844065022419991, usage plan id: b5be2i
+10-03-2023 04:30:50 [BNB-IOT] info: [createToken]: {"name":"167844065022419991","enabled":true}
+10-03-2023 04:30:50 [BNB-IOT] info: [searchToken]: tokenName=167844065022419991
+10-03-2023 04:30:50 [BNB-IOT] info: [searchToken] success: {"$metadata":{"httpStatusCode":200,"requestId":"1b08ce88-1dc7-432b-a620-af3a4bb15f1f","attempts":1,"totalRetryDelay":0},"items":[]}
+10-03-2023 04:30:50 [BNB-IOT] info: [createtoken] filter data result: []
+10-03-2023 04:30:51 [BNB-IOT] info: [createToken] success: {"$metadata":{"httpStatusCode":201,"requestId":"2219925e-86c0-4220-b475-bd00a402a007","attempts":1,"totalRetryDelay":0},"createdDate":"2023-03-10T09:30:51.000Z","enabled":true,"id":"02kdi6mtwb","lastUpdatedDate":"2023-03-10T09:30:51.000Z","name":"167844065022419991","stageKeys":[],"value":"81TpWVuA879JXuWMcznX02zvwh9bovEK8oNBSyhm"}
+10-03-2023 04:30:51 [BNB-IOT] info: [mappingUsagePlanAndToken] {"usagePlanId":"b5be2i","keyId":"02kdi6mtwb","keyType":"API_KEY"}
+10-03-2023 04:30:51 [BNB-IOT] info: [mappingUsagePlanAndToken] success : {"$metadata":{"httpStatusCode":201,"requestId":"a11fbc32-1761-4e91-8105-95f8c124fb2c","attempts":1,"totalRetryDelay":0},"id":"02kdi6mtwb","name":"167844065022419991","type":"API_KEY","value":"81TpWVuA879JXuWMcznX02zvwh9bovEK8oNBSyhm"}
+10-03-2023 04:31:30 [BNB-IOT] info: AuthController {/auth}:
+10-03-2023 04:31:30 [BNB-IOT] info: Mapped {/auth/sign-up, POST} route
+10-03-2023 04:31:30 [BNB-IOT] info: Mapped {/auth/sign-in, POST} route
+10-03-2023 04:31:30 [BNB-IOT] info: Mapped {/auth/check-auth, GET} route
+10-03-2023 04:31:30 [BNB-IOT] info: SesameController {/sesame}:
+10-03-2023 04:31:30 [BNB-IOT] info: Mapped {/sesame/active, POST} route
+10-03-2023 04:31:30 [BNB-IOT] info: Mapped {/sesame/history/:id, GET} route
+10-03-2023 04:31:30 [BNB-IOT] info: Mapped {/sesame/status/:id, GET} route
+10-03-2023 04:31:30 [BNB-IOT] info: Mapped {/sesame/code, POST} route
+10-03-2023 04:31:30 [BNB-IOT] info: Mapped {/sesame/code, PUT} route
+10-03-2023 04:31:30 [BNB-IOT] info: Mapped {/sesame/code/:id, DELETE} route
+10-03-2023 04:31:30 [BNB-IOT] info: Mapped {/sesame/code, GET} route
+10-03-2023 04:31:30 [BNB-IOT] info: DevicesController {/devices}:
+10-03-2023 04:31:30 [BNB-IOT] info: Mapped {/devices, POST} route
+10-03-2023 04:31:30 [BNB-IOT] info: Mapped {/devices, PUT} route
+10-03-2023 04:31:30 [BNB-IOT] info: Mapped {/devices/user, GET} route
+10-03-2023 04:31:30 [BNB-IOT] info: Mapped {/devices/all, GET} route
+10-03-2023 04:31:30 [BNB-IOT] info: TokenProviderController {/token-provider}:
+10-03-2023 04:31:30 [BNB-IOT] info: Mapped {/token-provider/usage-plan, POST} route
+10-03-2023 04:31:30 [BNB-IOT] info: Mapped {/token-provider/usage-plan, GET} route
+10-03-2023 04:31:30 [BNB-IOT] info: Mapped {/token-provider/usage-plan, PUT} route
+10-03-2023 04:31:30 [BNB-IOT] info: Mapped {/token-provider/usage-plan, DELETE} route
+10-03-2023 04:31:30 [BNB-IOT] info: Mapped {/token-provider/token, POST} route
+10-03-2023 04:31:30 [BNB-IOT] info: Mapped {/token-provider/token, GET} route
+10-03-2023 04:31:30 [BNB-IOT] info: Mapped {/token-provider/token, PUT} route
+10-03-2023 04:31:30 [BNB-IOT] info: Mapped {/token-provider/token, DELETE} route
+10-03-2023 04:31:30 [BNB-IOT] info: Mapped {/token-provider/map-plan-token, POST} route
+10-03-2023 04:31:30 [BNB-IOT] info: TypeDeviceController {/type-device}:
+10-03-2023 04:31:30 [BNB-IOT] info: Mapped {/type-device, POST} route
+10-03-2023 04:31:30 [BNB-IOT] info: Mapped {/type-device, GET} route
+10-03-2023 04:31:30 [BNB-IOT] info: Mapped {/type-device/:id, GET} route
+10-03-2023 04:31:30 [BNB-IOT] info: Mapped {/type-device/:id, PUT} route
+10-03-2023 04:31:30 [BNB-IOT] info: Mapped {/type-device/:id, DELETE} route
+10-03-2023 04:31:30 [BNB-IOT] info: TypeBrandDeviceController {/type-brand-device}:
+10-03-2023 04:31:30 [BNB-IOT] info: Mapped {/type-brand-device, POST} route
+10-03-2023 04:31:30 [BNB-IOT] info: Mapped {/type-brand-device, GET} route
+10-03-2023 04:31:30 [BNB-IOT] info: Mapped {/type-brand-device/:id, GET} route
+10-03-2023 04:31:30 [BNB-IOT] info: Mapped {/type-brand-device/:id, PUT} route
+10-03-2023 04:31:30 [BNB-IOT] info: Mapped {/type-brand-device/:id, DELETE} route
+10-03-2023 04:31:30 [BNB-IOT] info: BrandDeviceController {/brand-device}:
+10-03-2023 04:31:30 [BNB-IOT] info: Mapped {/brand-device, POST} route
+10-03-2023 04:31:30 [BNB-IOT] info: Mapped {/brand-device, GET} route
+10-03-2023 04:31:30 [BNB-IOT] info: Mapped {/brand-device/:id, GET} route
+10-03-2023 04:31:30 [BNB-IOT] info: Mapped {/brand-device/:id, PUT} route
+10-03-2023 04:31:30 [BNB-IOT] info: Mapped {/brand-device/:id, DELETE} route
+10-03-2023 04:31:30 [BNB-IOT] info: MappingApiController {/mapping-api}:
+10-03-2023 04:31:30 [BNB-IOT] info: Mapped {/mapping-api, POST} route
+10-03-2023 04:31:30 [BNB-IOT] info: Mapped {/mapping-api/all, GET} route
+10-03-2023 04:31:30 [BNB-IOT] info: Mapped {/mapping-api, GET} route
+10-03-2023 04:31:30 [BNB-IOT] info: Mapped {/mapping-api/:id, GET} route
+10-03-2023 04:31:30 [BNB-IOT] info: Mapped {/mapping-api/:id, PUT} route
+10-03-2023 04:31:30 [BNB-IOT] info: Mapped {/mapping-api/:id, DELETE} route
+10-03-2023 04:31:30 [BNB-IOT] info: Mapped {/mapping-api/request/:key/:name, GET} route
+10-03-2023 04:31:30 [BNB-IOT] info: Mapped {/mapping-api/request/:key/:name, POST} route
+10-03-2023 04:31:30 [BNB-IOT] info: ThirdPartyApiController {/third-party-api}:
+10-03-2023 04:31:30 [BNB-IOT] info: Mapped {/third-party-api, POST} route
+10-03-2023 04:31:30 [BNB-IOT] info: Mapped {/third-party-api, GET} route
+10-03-2023 04:31:30 [BNB-IOT] info: Mapped {/third-party-api/:id, GET} route
+10-03-2023 04:31:30 [BNB-IOT] info: Mapped {/third-party-api/:id, PUT} route
+10-03-2023 04:31:30 [BNB-IOT] info: Mapped {/third-party-api/:id, DELETE} route
+10-03-2023 04:31:30 [BNB-IOT] info: ThirdPartyController {/third-party}:
+10-03-2023 04:31:30 [BNB-IOT] info: Mapped {/third-party, POST} route
+10-03-2023 04:31:30 [BNB-IOT] info: Mapped {/third-party, GET} route
+10-03-2023 04:31:30 [BNB-IOT] info: Mapped {/third-party/:id, GET} route
+10-03-2023 04:31:30 [BNB-IOT] info: Mapped {/third-party/:id, PUT} route
+10-03-2023 04:31:30 [BNB-IOT] info: Mapped {/third-party/:id, DELETE} route
+10-03-2023 04:31:30 [BNB-IOT] info: AuthorizationKioskController {/authorization-kiosk}:
+10-03-2023 04:31:30 [BNB-IOT] info: Mapped {/authorization-kiosk, GET} route
+10-03-2023 04:31:30 [BNB-IOT] info: Mapped {/authorization-kiosk/api-key/:apiKey, GET} route
+10-03-2023 04:31:30 [BNB-IOT] info: Mapped {/authorization-kiosk/pms/orgId, POST} route
+10-03-2023 04:31:30 [BNB-IOT] info: Mapped {/authorization-kiosk/pms, POST} route
+10-03-2023 04:31:30 [BNB-IOT] info: Mapped {/authorization-kiosk, POST} route
+10-03-2023 04:31:30 [BNB-IOT] info: Mapped {/authorization-kiosk/reset-token/:id, POST} route
+10-03-2023 04:31:30 [BNB-IOT] info: Mapped {/authorization-kiosk, PUT} route
+10-03-2023 04:31:30 [BNB-IOT] info: Mapped {/authorization-kiosk/:id, DELETE} route
+10-03-2023 04:31:30 [BNB-IOT] info: ResponseCodeController {/response-code}:
+10-03-2023 04:31:30 [BNB-IOT] info: Mapped {/response-code/:id, GET} route
+10-03-2023 04:31:30 [BNB-IOT] info: Mapped {/response-code/:id, PUT} route
+10-03-2023 04:31:30 [BNB-IOT] info: Nest application successfully started
+10-03-2023 04:31:30 [BNB-IOT] info: [create]: AuthKioskDto {"organizationId":1999,"username":"testkioskstg@genkisystem.com","password":"jQ9RnvAt"}
+10-03-2023 04:31:30 [BNB-IOT] info: find by AuthorizationType
+10-03-2023 04:31:30 [BNB-IOT] info: find by authorizationType third party success
+10-03-2023 04:31:30 [BNB-IOT] info: [find all by third party id] third party id: 2
+10-03-2023 04:31:30 [BNB-IOT] info: get token by username: testkioskstg@genkisystem.com
+10-03-2023 04:31:30 [BNB-IOT] info: [post request full path]: https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword
+10-03-2023 04:31:31 [BNB-IOT] info: [post response]: 
+10-03-2023 04:31:51 [BNB-IOT] info: [getAuthByOrgId]: orgId 1999
+10-03-2023 04:31:59 [BNB-IOT] info: [getAuthByOrgId]: orgId 1999
+10-03-2023 04:32:03 [BNB-IOT] info: [getAuthByOrgId]: orgId 1
+10-03-2023 04:32:03 [BNB-IOT] info: [getTokenInfo] tokenId=s9lj4bvhxj
+10-03-2023 04:32:03 [BNB-IOT] info: [getTokenInfo] success: {"$metadata":{"httpStatusCode":200,"requestId":"5b5a2084-fb18-4cdf-bf5c-4d81213285db","attempts":1,"totalRetryDelay":0},"createdDate":"2023-03-10T07:03:37.000Z","enabled":true,"id":"s9lj4bvhxj","lastUpdatedDate":"2023-03-10T07:03:37.000Z","name":"167843181695311","stageKeys":[],"tags":{},"value":"20s8gx2qGl3AsHHmucTSF5O3SkJNRtHs6taTol7j"}
+10-03-2023 04:32:05 [BNB-IOT] info: [getAuthByOrgId]: orgId 1
+10-03-2023 04:32:05 [BNB-IOT] info: [getTokenInfo] tokenId=s9lj4bvhxj
+10-03-2023 04:32:05 [BNB-IOT] info: [getTokenInfo] success: {"$metadata":{"httpStatusCode":200,"requestId":"1edf42c7-f920-4586-8ba1-e940b7be75aa","attempts":1,"totalRetryDelay":0},"createdDate":"2023-03-10T07:03:37.000Z","enabled":true,"id":"s9lj4bvhxj","lastUpdatedDate":"2023-03-10T07:03:37.000Z","name":"167843181695311","stageKeys":[],"tags":{},"value":"20s8gx2qGl3AsHHmucTSF5O3SkJNRtHs6taTol7j"}
+10-03-2023 04:32:26 [BNB-IOT] info: [create]: AuthKioskDto {"organizationId":99,"username":"testkioskstg1@genkisystem.com","password":"jQ9RnvAt"}
+10-03-2023 04:32:26 [BNB-IOT] info: find by AuthorizationType
+10-03-2023 04:32:27 [BNB-IOT] info: find by authorizationType third party success
+10-03-2023 04:32:27 [BNB-IOT] info: [find all by third party id] third party id: 2
+10-03-2023 04:32:27 [BNB-IOT] info: get token by username: testkioskstg1@genkisystem.com
+10-03-2023 04:32:27 [BNB-IOT] info: [post request full path]: https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword
+10-03-2023 04:32:28 [BNB-IOT] error: [post request error]: AxiosError: Request failed with status code 400
+10-03-2023 04:32:32 [BNB-IOT] info: [create]: AuthKioskDto {"organizationId":99,"username":"testkioskstg@genkisystem.com","password":"jQ9RnvAt1"}
+10-03-2023 04:32:32 [BNB-IOT] info: find by AuthorizationType
+10-03-2023 04:32:32 [BNB-IOT] info: find by authorizationType third party success
+10-03-2023 04:32:32 [BNB-IOT] info: [find all by third party id] third party id: 2
+10-03-2023 04:32:32 [BNB-IOT] info: get token by username: testkioskstg@genkisystem.com
+10-03-2023 04:32:32 [BNB-IOT] info: [post request full path]: https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword
+10-03-2023 04:32:33 [BNB-IOT] error: [post request error]: AxiosError: Request failed with status code 400
+10-03-2023 04:32:37 [BNB-IOT] info: [create]: AuthKioskDto {"organizationId":99,"username":"testkioskstg@genkisystem.com","password":"jQ9RnvAt"}
+10-03-2023 04:32:37 [BNB-IOT] info: find by AuthorizationType
+10-03-2023 04:32:38 [BNB-IOT] info: find by authorizationType third party success
+10-03-2023 04:32:38 [BNB-IOT] info: [find all by third party id] third party id: 2
+10-03-2023 04:32:38 [BNB-IOT] info: get token by username: testkioskstg@genkisystem.com
+10-03-2023 04:32:38 [BNB-IOT] info: [post request full path]: https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword
+10-03-2023 04:32:38 [BNB-IOT] info: [post response]: 
+10-03-2023 04:32:38 [BNB-IOT] info: [generateApiKeyAndMappingToUsagePlan] name token: 1678440758747992, usage plan id: b5be2i
+10-03-2023 04:32:38 [BNB-IOT] info: [createToken]: {"name":"1678440758747992","enabled":true}
+10-03-2023 04:32:38 [BNB-IOT] info: [searchToken]: tokenName=1678440758747992
+10-03-2023 04:32:39 [BNB-IOT] info: [searchToken] success: {"$metadata":{"httpStatusCode":200,"requestId":"c01f3fdc-71a9-4ad8-b49a-06824cfad582","attempts":1,"totalRetryDelay":0},"items":[]}
+10-03-2023 04:32:39 [BNB-IOT] info: [createtoken] filter data result: []
+10-03-2023 04:32:39 [BNB-IOT] info: [createToken] success: {"$metadata":{"httpStatusCode":201,"requestId":"7abf0524-3598-4120-b2d8-4fb3caa52f9a","attempts":1,"totalRetryDelay":0},"createdDate":"2023-03-10T09:32:39.000Z","enabled":true,"id":"37leqodm2g","lastUpdatedDate":"2023-03-10T09:32:39.000Z","name":"1678440758747992","stageKeys":[],"value":"cI5odgagHg4sD3fhM1SY03G6qjCE8Ywx1Lt4vG07"}
+10-03-2023 04:32:39 [BNB-IOT] info: [mappingUsagePlanAndToken] {"usagePlanId":"b5be2i","keyId":"37leqodm2g","keyType":"API_KEY"}
+10-03-2023 04:32:40 [BNB-IOT] info: [mappingUsagePlanAndToken] success : {"$metadata":{"httpStatusCode":201,"requestId":"6570eed4-7393-46e0-bb29-2243d0e9b3b5","attempts":1,"totalRetryDelay":0},"id":"37leqodm2g","name":"1678440758747992","type":"API_KEY","value":"cI5odgagHg4sD3fhM1SY03G6qjCE8Ywx1Lt4vG07"}
+10-03-2023 04:32:54 [BNB-IOT] info: [create]: AuthKioskDto {"organizationId":99,"apiKey":"11111jQ9RnvAt"}
+10-03-2023 04:32:54 [BNB-IOT] info: find by AuthorizationType
+10-03-2023 04:32:55 [BNB-IOT] info: find by authorizationType third party success
+10-03-2023 04:32:55 [BNB-IOT] info: [find all by third party id] third party id: 1
+10-03-2023 04:32:55 [BNB-IOT] info: [generateApiKeyAndMappingToUsagePlan] name token: 1678440775289991, usage plan id: b5be2i
+10-03-2023 04:32:55 [BNB-IOT] info: [createToken]: {"name":"1678440775289991","enabled":true}
+10-03-2023 04:32:55 [BNB-IOT] info: [searchToken]: tokenName=1678440775289991
+10-03-2023 04:32:55 [BNB-IOT] info: [searchToken] success: {"$metadata":{"httpStatusCode":200,"requestId":"d4f44ca6-e824-40ff-ab53-9f81d88ede94","attempts":1,"totalRetryDelay":0},"items":[]}
+10-03-2023 04:32:55 [BNB-IOT] info: [createtoken] filter data result: []
+10-03-2023 04:32:56 [BNB-IOT] info: [createToken] success: {"$metadata":{"httpStatusCode":201,"requestId":"8cccc961-c33b-4a73-99e0-edd3efbc39ce","attempts":1,"totalRetryDelay":0},"createdDate":"2023-03-10T09:32:56.000Z","enabled":true,"id":"ayizo8ykpc","lastUpdatedDate":"2023-03-10T09:32:56.000Z","name":"1678440775289991","stageKeys":[],"value":"nbUhOaY8kr62rUjgJtvkq1uEZr73JWP85JnVZeqf"}
+10-03-2023 04:32:56 [BNB-IOT] info: [mappingUsagePlanAndToken] {"usagePlanId":"b5be2i","keyId":"ayizo8ykpc","keyType":"API_KEY"}
+10-03-2023 04:32:56 [BNB-IOT] info: [mappingUsagePlanAndToken] success : {"$metadata":{"httpStatusCode":201,"requestId":"ebda94b2-88c4-4dd7-9cff-1a1c029f9e84","attempts":1,"totalRetryDelay":0},"id":"ayizo8ykpc","name":"1678440775289991","type":"API_KEY","value":"nbUhOaY8kr62rUjgJtvkq1uEZr73JWP85JnVZeqf"}
+10-03-2023 04:33:19 [BNB-IOT] info: [getAuthByOrgId]: orgId 99
+10-03-2023 04:33:20 [BNB-IOT] info: [getTokenInfo] tokenId=ayizo8ykpc
+10-03-2023 04:33:20 [BNB-IOT] info: [getTokenInfo] success: {"$metadata":{"httpStatusCode":200,"requestId":"dbc2283f-fca4-45a3-9ceb-973dfb73e989","attempts":1,"totalRetryDelay":0},"createdDate":"2023-03-10T09:32:56.000Z","enabled":true,"id":"ayizo8ykpc","lastUpdatedDate":"2023-03-10T09:32:56.000Z","name":"1678440775289991","stageKeys":[],"tags":{},"value":"nbUhOaY8kr62rUjgJtvkq1uEZr73JWP85JnVZeqf"}
+10-03-2023 04:34:29 [BNB-IOT] info: [getAuthByOrgId]: orgId 99
+10-03-2023 04:34:29 [BNB-IOT] info: [getTokenInfo] tokenId=ayizo8ykpc
+10-03-2023 04:34:29 [BNB-IOT] info: [getTokenInfo] success: {"$metadata":{"httpStatusCode":200,"requestId":"399048c4-0fcc-4eac-9894-43fb2dbe18d3","attempts":1,"totalRetryDelay":0},"createdDate":"2023-03-10T09:32:56.000Z","enabled":true,"id":"ayizo8ykpc","lastUpdatedDate":"2023-03-10T09:32:56.000Z","name":"1678440775289991","stageKeys":[],"tags":{},"value":"nbUhOaY8kr62rUjgJtvkq1uEZr73JWP85JnVZeqf"}
+10-03-2023 04:34:30 [BNB-IOT] info: [getAuthByOrgId]: orgId 99
+10-03-2023 04:34:30 [BNB-IOT] info: [getTokenInfo] tokenId=ayizo8ykpc
+10-03-2023 04:34:31 [BNB-IOT] info: [getTokenInfo] success: {"$metadata":{"httpStatusCode":200,"requestId":"13db5b6f-2cc1-4dd5-9a18-aea7da0e566e","attempts":1,"totalRetryDelay":0},"createdDate":"2023-03-10T09:32:56.000Z","enabled":true,"id":"ayizo8ykpc","lastUpdatedDate":"2023-03-10T09:32:56.000Z","name":"1678440775289991","stageKeys":[],"tags":{},"value":"nbUhOaY8kr62rUjgJtvkq1uEZr73JWP85JnVZeqf"}
