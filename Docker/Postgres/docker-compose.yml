@@ -1,0 +1,18 @@
+version: '3.7'
+
+services:
+  postgres-db:
+    build:
+      dockerfile: Dockerfile
+      context: .
+    restart: always
+    image: iot-dev-db/postgres
+    ports:
+      - 5432:5432
+    volumes:
+      - ../../../dev-main-db:/var/lib/postgresql/data
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: genki2018
+      POSTGRES_DB: bnb_iot
+      POSTGRES_EXTENSIONS: citext
