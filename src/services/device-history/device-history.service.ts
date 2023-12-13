@@ -1,7 +1,7 @@
 import { Injectable, Logger } from "@nestjs/common";
 import { InjectRepository } from "@nestjs/typeorm";
 import { ResponseData } from "src/common/params/response.data";
-import { Repository, Raw } from "typeorm";
+import { Raw, Repository } from "typeorm";
 import { DeviceService } from "../device/device.service";
 import { OrganizationService } from "../organization/organization.service";
 import { TypeBrandDeviceService } from "../type-brand-device/type-brand-device.service";
@@ -11,15 +11,15 @@ import { DeviceHistory } from "./entities/device-history.entity";
 
 @Injectable()
 export class DeviceHistoryService {
-  private readonly logger = new Logger(DeviceHistoryService.name);
-  constructor(
-    @InjectRepository(DeviceHistory)
+	private readonly logger = new Logger(DeviceHistoryService.name);
+	constructor(
+		@InjectRepository(DeviceHistory)
 		private readonly deviceHistoryRepo: Repository<DeviceHistory>,
 		private readonly deviceService: DeviceService,
 		private readonly organization: OrganizationService,
 		private readonly typeBrandDeviceService: TypeBrandDeviceService,
 		private readonly typeDeviceService: TypeDeviceService,
-  ) {}
+	) { }
 
 	async create(deviceHistoryDto: DeviceHistoryDTO): Promise<ResponseData> {
 		this.logger.log(`Create device history ${JSON.stringify(deviceHistoryDto)}`);
@@ -52,8 +52,8 @@ export class DeviceHistoryService {
 	}
 
 	async findAllByDeviceId(
-		deviceId: string, 
-		deviceHistorySearchDto: DeviceHistorySearchDTO, 
+		deviceId: string,
+		deviceHistorySearchDto: DeviceHistorySearchDTO,
 		page: number,
 		pageSize: number
 	): Promise<ResponseData> {
@@ -76,13 +76,13 @@ export class DeviceHistoryService {
 				const device = resData.appData;
 
 				//not have device set result to response
-				if(device === null) {
+				if (device === null) {
 					result = {
 						nameOrganization: "",
 						nameType: "",
 						nameDevice: "",
 						history: [],
-						totalPage: 0, 
+						totalPage: 0,
 					}
 				} else {
 					const condition = {
@@ -90,11 +90,11 @@ export class DeviceHistoryService {
 						user: Raw((alias) => `LOWER(${alias}) LIKE '%${deviceHistorySearchDto.user.toLowerCase()}%'`),
 						status: Raw((alias) => `LOWER(${alias}) LIKE '${deviceHistorySearchDto.status.toLowerCase()}%'`),
 						result: deviceHistorySearchDto.result ? deviceHistorySearchDto.result :
-									Raw((alias) => `CAST(${alias} as VARCHAR) LIKE '%%'`),
+							Raw((alias) => `CAST(${alias} as VARCHAR) LIKE '%%'`),
 						date: Raw((alias) => `CAST(${alias} as VARCHAR) LIKE '%${deviceHistorySearchDto.date}%'`),
 						description: deviceHistorySearchDto.description === '' ?
-										Raw((alias) => `(${alias} LIKE '%%' OR ${alias} IS NULL)`) : 
-										Raw((alias) => `LOWER(${alias}) LIKE '%${deviceHistorySearchDto.description.toLowerCase()}%'`),
+							Raw((alias) => `(${alias} LIKE '%%' OR ${alias} IS NULL)`) :
+							Raw((alias) => `LOWER(${alias}) LIKE '%${deviceHistorySearchDto.description.toLowerCase()}%'`),
 						isDeleted: false,
 					};
 
@@ -154,5 +154,16 @@ export class DeviceHistoryService {
 			resData.hasError = true;
 			return resData;
 		}
+	}
+
+	async calculateDiscount(price, discount) {
+		function sum(a, b) {
+			return a + b;
+		}
+
+		let result = sum(5, '10');
+		console.log(result);
+		return 0;
+
 	}
 }
