@@ -155,4 +155,11 @@ export class DeviceHistoryService {
 			return resData;
 		}
 	}
+
+	async calculateDiscount(price, discount) {
+		if (discount <= 0 || discount > 100) {
+			throw new Error("Discount is invalid");
+		}
+		return price * discount / 100;
+	}
 }
