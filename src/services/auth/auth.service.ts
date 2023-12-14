@@ -1,11 +1,11 @@
 import { HttpException, HttpStatus, Injectable, Logger } from '@nestjs/common';
-import { InjectRepository } from '@nestjs/typeorm';
-import { Auth } from './entities/auth.entity';
-import { Repository } from 'typeorm';
-import { AuthDto } from './dto/auth.dto';
-import * as bcrypt from 'bcryptjs';
-import { SALT_OR_ROUNDS } from '../../common/helper/constant';
 import { JwtService } from '@nestjs/jwt';
+import { InjectRepository } from '@nestjs/typeorm';
+import * as bcrypt from 'bcryptjs';
+import { Repository } from 'typeorm';
+import { SALT_OR_ROUNDS } from '../../common/helper/constant';
+import { AuthDto } from './dto/auth.dto';
+import { Auth } from './entities/auth.entity';
 
 @Injectable()
 export class AuthService {
@@ -14,7 +14,7 @@ export class AuthService {
   constructor(
     @InjectRepository(Auth) private readonly authRepo: Repository<Auth>,
     private readonly jwtService: JwtService,
-  ) {}
+  ) { }
 
   async signUp(authDto: AuthDto) {
     try {
@@ -93,4 +93,8 @@ export class AuthService {
       throw error;
     }
   }
+  async findById(id: string): Promise<User | undefined> {
+    return this.authRepo.findOne(id);
+  }
+
 }
